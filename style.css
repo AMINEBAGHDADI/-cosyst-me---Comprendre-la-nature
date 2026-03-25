@@ -1,0 +1,121 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+header {
+  background-color: #2e8b57;
+  color: white;
+  padding: 20px;
+  height: 100px;
+  width: 100%;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+header ul {
+  list-style: none;
+  display: flex;
+}
+header li {
+  margin: 15px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+section {
+  height: 550px;
+  width: 100%;
+}
+iframe {
+  height: 550px;
+  width: 100%;
+  padding: 70px;
+}
+footer {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  height: 80px;
+  text-align: center;
+}
+details, summary {
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+h2,h1 {
+  color: #2e8b57;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+label,input,select{
+  font-size: 15px;
+  font-weight: bolder;
+  width: 200px;
+  float: left;	
+  font-size: large;
+}
+
+output{
+  font-size: 15px;
+  font-weight: bolder;
+  width: 100%;
+  float: left;	
+  font-size: large;
+}
+legend{
+  color: purple ; 
+  font-weight: bolder;
+  font-size: large;	
+  margin: 10px;}
+input.bt{ 
+  float: center; 
+  margin-left: 50px ;
+  font-size: 20px;
+  float: right;}
+img {
+  width: 350px;
+  height: 400px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+a[target=frame]{
+  text-shadow: 8px 8px 8px red;
+}
+a:visited{
+  color: blue;
+}
+.tr{transition: all 2s;}
+.tr:hover{
+  color: blue;
+  font-size: 40px;
+}
+

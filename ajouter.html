@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onload="return charger()">
+    <script src="evenement.js"></script>
+    <script src="control.js"></script>
+    <h1>Ajouter une noubvelle espèce</h1>
+    <p>Veuilez remplir les informations ci-dessous pour ajouter une espèce a la base de données</p>
+        <form method="post" action="ajouter.php" onsubmit="return verif()">
+        <fieldset>
+            <legend>ESPECE</legend>
+            <label for="">IdEspece</label>
+            <input name="id" type="text">
+            <br><br>
+            <label for="">Nom commun</label>
+            <input id="nom" name="nom" type="text">
+            <br><br>
+            <label for="">regime alimentaire</label>
+            <select id="reg" name="reg">
+                <option  value="0">Choisir un regime</option>
+                <option  value="herbivore">Hérbivore</option>
+                <option  value="Carnivore">Carnivore</option>
+                <option  value="omnivore">Omnivore</option>
+            </select>
+            <br><br>
+            <label for="">Type d'espece</label>
+            <input name="type" type="text">
+            <br><br>
+            <label for="">Status conservation</label>
+            <input type="radio" name="st" value="En danger"  id="">
+            <label for="">En danger</label>
+            <input type="radio" name="st" value="stable" id="">
+            <label for="">stable</label>
+            <input type="radio" name="st" value="preoccupation mineure" id="">
+            <label for="">preoccupation mineure</label>
+            
+            <br><br>
+            <label for="">Date</label>
+            <output id="date" name="in"></output>
+            <br><br>
+            <input class="bt" type="submit" value="Inscription" />
+            <input class="bt" type="reset" value="Annuler" />
+        </fieldset>
+    </form>    
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscription</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="return charger()">
+    <script src="evenement.js"></script>
+    <h1>Inscription</h1>
+    <form >
+      <fieldset>
+        <legend>Informations Personnel</legend>
+        <label>Nom :</label>
+        <input name="in" type="text" /><br /><br />
+        <label>Prénom :</label>
+        <input name="in" type="text" /><br /><br />
+        <label>Tel :</label>
+        <input name="in" type="tel" required  /><br /><br />
+        <label> Age </label>
+        <input name="in" type="text" ></option>
+        </datalist>
+        <br /><br />
+      </fieldset>
+      <fieldset>
+        <label>Mot de passe :</label>
+        <input onfocus="activer()" name="in" type="password"  /><br /><br />
+        <label>Confirmation du mot de passe :</label>
+        <input name="in" id="cmp" type="password" disabled  /><br /><br />
+        <input class="bt" type="submit" value="Inscription" />
+        <input class="bt" type="reset" value="Annuler" />
+      </fieldset>
+      <label> Date </label><output id="date" name="in"></output><br /><br /><br />
+    </form>
+  </body>
+</html>
